@@ -1,0 +1,52 @@
+body {
+	width: 1440px;
+    height: 1024px;
+    background-color: #F2F8FF;
+}
+
+.left-bar {
+	width: 350px;
+	height: 1021px;
+	flex-shrink: 0;
+	align-items: center;
+}
+.right-bar {
+	width: 350px;
+	height: 1021px;
+	flex-shrink: 0;
+	align-items: center;
+	margin:0 20px;
+	background: #FBFDFF;
+}
+
+.middle {
+	width: 80%;
+	height: 1021px;
+	flex-shrink: 0;
+	align-items: center;
+	background: #FBFDFF;
+}
+
+.logo {
+	color: #4062FF;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin:34px 57px ;
+}
+
+.left-bar ul {
+	margin: 20px;
+}
+.left-bar ul li{
+	margin: 40px;
+}
+
+.icon {
+	width: 24px;
+	height: 26.824px;
+	flex-shrink: 0;
+	display: flex;
+}
