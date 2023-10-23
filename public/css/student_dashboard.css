@@ -1,4 +1,4 @@
-body {
+/*body {
 	width: 1440px;
     height: 1024px;
     background-color: #F2F8FF;
@@ -42,11 +42,21 @@ body {
 }
 .left-bar ul li{
 	margin: 40px;
+}*/
+
+.logo {
+	/*width: 24px !important;
+	height: 26.824px !important;*/
+	flex-shrink: 0 !important;
+	display: flex !important;
+	align-items: left !important;
+
+   
 }
 
 .icon {
 	width: 24px;
-	height: 26.824px;
+	height: 24px;
 	flex-shrink: 0;
-	display: flex;
+	fill: #B8BED9;
 }
