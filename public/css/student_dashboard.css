@@ -60,3 +60,89 @@
 	flex-shrink: 0;
 	fill: #B8BED9;
 }
+
+.student_dashboard_link{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.625rem 1.5rem;
+    color: var(--vz-vertical-menu-item-color);
+    font-size: .925rem;
+    font-family: Rubik,sans-serif;
+    margin: 20px;
+    margin-top: 10px !important;
+    border-radius: 16px;
+
+}
+
+.student_dashboard_link:hover {
+	width: 225.378px;
+	height: 64px;
+	flex-shrink: 0;
+	border-radius: 16px;
+	background: #4062FF;
+	color: #fff !important;
+	margin: 15px;
+}
+
+.subject_icon_background {
+	width: 48px;
+	height: 48px;
+	flex-shrink: 0;
+	border-radius: 16px;
+	background: #F0B90B;
+	box-shadow: 0px 0px 20px 0px rgba(142, 143, 145, 0.04);
+
+}
+
+.subject_user_text {
+	color: var(--grey-500, #919EAB);
+	font-family: Poppins;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.subject_subject_text{
+	color: var(--common-black, #000);
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.logo_s_text {
+	display: flex;
+	align-items: center;
+}
+.textSubjectName {
+	padding-top: 14px;
+}
+.carousel-inner .carousel-item img {
+	visibility: hidden;
+}
+.advertisementText h2{
+	color: var(--common-white, #FFF);
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 40px;
+
+}
+.carousel-inner .carouselButton {
+	display: flex;
+width: 197px;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 16px;
+background: #40BAFF;
+margin: 40px;
+}

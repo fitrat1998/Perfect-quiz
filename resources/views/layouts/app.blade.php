@@ -6,7 +6,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Dashboard | Velzon - Admin & Dashboard Template</title>
+    <title>Quiz App - Testing system</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
@@ -37,7 +37,7 @@
 
 </head>
 
-<body>
+<body class="twocolumn-panel">
 <!-- Begin page -->
 <div id="layout-wrapper">
 
