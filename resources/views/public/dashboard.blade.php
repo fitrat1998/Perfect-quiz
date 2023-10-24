@@ -843,8 +843,7 @@
                                                     </div>
                                                     <div class="carousel-inner">
                                                       <div class="carousel-item active" data-bs-interval="10000">
-                                                      <span  class="advertisementText d-block text-center"> <p class="lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or 
-                                                      </span>
+                                                      <span  class="advertisementText d-block text-center"> <h2>Yangi test sinovlari boshlandi Yangi test sinovlari boshlandi Yangi test sinovlari boshlandi</h2> </span>
                                                        <div class="carouselButton"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
 <path d="M17.9094 7.85331C18.3897 8.10872 18.7914 8.49 19.0716 8.95629C19.3517 9.42259 19.4997 9.95632 19.4997 10.5003C19.4997 11.0443 19.3517 11.578 19.0716 12.0443C18.7914 12.5106 18.3897 12.8919 17.9094 13.1473L5.09737 20.1143C3.03437 21.2363 0.500366 19.7763 0.500366 17.4683V3.53331C0.500366 1.22331 3.03437 -0.235693 5.09737 0.885307L17.9094 7.85331Z" fill="#F1F8FF"/>
 </svg><span>Qatnashish</span></div>
