@@ -19,6 +19,9 @@
     <!--Swiper slider css-->
     <link href="{{ asset('assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css" />
 
+     <!-- gridjs css -->
+    <link rel="stylesheet" href="{{ asset('assets/libs/gridjs/theme/mermaid.min.css') }}">
+
     <!-- Layout config Js -->
     <script src="{{ asset('assets/js/layout.js') }}"></script>
     <!-- Bootstrap Css -->
@@ -844,6 +847,17 @@
 
     <!-- App js -->
     <script src="{{ asset('assets/js/app.js ') }} "></script>
+
+    <!-- prismjs plugin -->
+    <script src="{{ asset('assets/libs/prismjs/prism.js') }}"></script>
+
+    <!-- gridjs js -->
+    <script src="{{ asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
+    <!-- gridjs init -->
+    <script src="{{ asset('assets/js/pages/gridjs.init.js') }}"></script>
+
+    <!-- App js -->
+    <script src="{{ asset('assets/js/app.js') }}"></script>
 
 </body>
 </html>

@@ -146,3 +146,38 @@ border-radius: 16px;
 background: #40BAFF;
 margin: 40px;
 }
+
+.carousel-control-prev-icon {
+	margin-top: 350px;
+	display: block;
+    width: 10rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 50% 100%;
+}
+
+.carousel-control-next-icon  {
+	margin-top: 350px;
+}
+
+.pagination {
+/*	margin: 0px auto;*/
+	float: right;
+/*	width: 800px;*/
+}
+
+.page-link {
+	font-size: 16px;
+}
+
+.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    position: relative;
+    margin-top: 0;
+
+}
+
+.topbar-user{
+	margin:0;
+	padding: 0;
+}
