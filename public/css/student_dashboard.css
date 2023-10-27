@@ -177,7 +177,34 @@ margin: 40px;
 
 }
 
-.topbar-user{
-	margin:0;
+.dropdown{
+	margin:0px;
 	padding: 0;
+}
+
+.profile_card{
+	width: 200px;
+	flex-shrink: 0;
+	border-radius: 24px;
+	background: #4062FF;
+}
+
+.profile_card_photo{
+	width: 58px;
+	height: 48px;
+
+	position: relative;
+}
+
+.text_test {
+	color: var(--common-black, #000);
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	float: left;
+}
+.topbar-user {
+     background-color: none !important; 
 }

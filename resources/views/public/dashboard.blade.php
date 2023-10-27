@@ -1043,9 +1043,9 @@
                             <div class="overlay"></div>
                             <div class="layout-rightside">
                                 <div class=" h-100  rounded-1">
-                                    <div class="card-body p-3 ">
-                                        <div class="p-3">
-                                          <div class="d-flex align-items-center">
+                                    <div class="card-body pt-3 ">
+                                        <div class="pt-3">
+                                          <div class="d-flex justify-content-between align-items-center">
                                             <!-- start of student notification -->
                                             <div class="dropdown topbar-head-dropdown ms-1 header-item float-start" id="notificationDropdown">
                                                 <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
@@ -1312,10 +1312,8 @@
                                             </div>
                                             <!-- end of student notification -->
 
-
-
                                             <!-- start of student profile -->
-                                            <div class="dropdown ms-sm-0  bg-white topbar-user">
+                                            <div class="dropdown ms-sm-0 bg-none p-2  topbar-user">
                                                 <button type="button" class="btn " id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="d-flex ">
                                                         <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg" alt="Header Avatar">
@@ -1341,48 +1339,29 @@
                                             </div>
                                             <!-- end of student profile -->
 
+                                            
+
                                           </div>
                                         </div>
+
+                                        <div class="p-">
+                                            <span>
+                                                 <img class="profile_card_photo mb-0" src="{{ asset('img/user/user.svg') }}">
+                                            </span>
+                                            <div class="profile_card p-5">
+                                                <h4 m-5>Tolibov T</h4>
+                                                <div mt-5>toloibov@gmail.com</div>
+                                            </div>
                                         
+                                        </div>
 
                                         <div class="p-3 mt-2">
-                                            <div class="text-muted mb-3 text-uppercase">Top 10 Categories
-                                            </div >
+                                            <h1 class=" mb-3 text_test">Hozirgi testlar
+                                            </h1 >
 
-                                            <ol class="ps-3 text-muted">
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Mobile & Accessories <span class="float-end">(10,294)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Desktop <span class="float-end">(6,256)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Electronics <span class="float-end">(3,479)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Home & Furniture <span class="float-end">(2,275)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Grocery <span class="float-end">(1,950)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Fashion <span class="float-end">(1,582)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Appliances <span class="float-end">(1,037)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Beauty, Toys & More <span class="float-end">(924)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Food & Drinks <span class="float-end">(701)</span></a>
-                                                </li>
-                                                <li class="py-1">
-                                                    <a href="#" class="text-muted">Toys & Games <span class="float-end">(239)</span></a>
-                                                </li>
-                                            </ol>
-                                            <div class="mt-3 text-center">
-                                                <a href="javascript:void(0);" class="text-muted text-decoration-underline">View all Categories</a>
+                                            <div>
+                                                 <img class="m-2 subject_icon_background p-2" src="{{ asset('img/svg/history.svg') }}" width="19" height="16" >
+                                                 <span class="mb-5">ffdgfd</span>
                                             </div>
                                         </div>
                                         
