@@ -1344,16 +1344,26 @@
                                           </div>
                                         </div>
 
-                                        <div class="p-">
+                                        <div class="profile_card_main">
+
                                             <span>
-                                                 <img class="profile_card_photo mb-0" src="{{ asset('img/user/user.svg') }}">
+                                                 <img class="profile_card_photo caption " src="{{ asset('img/user/user.svg') }}">
                                             </span>
-                                            <div class="profile_card p-5">
+                                            <div class="profile_card  p-5">
                                                 <h4 m-5>Tolibov T</h4>
-                                                <div mt-5>toloibov@gmail.com</div>
+                                                <div class="user_bottom_text">
+                                                    <p>tolibov@gmail.com</p>
+                                                    <div class="statics">
+                                                        <div class="img">
+                                                            <img src="{{ asset('img/user/Arrow2.png') }}">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         
                                         </div>
+
 
                                         <div class="p-3 mt-2">
                                             <h1 class=" mb-3 text_test">Hozirgi testlar
@@ -1367,7 +1377,7 @@
                                         
 
 
-                                    </div>
+                                    
                                 </div> <!-- end card-->
                             </div> <!-- end .rightbar-->
 

@@ -182,18 +182,17 @@ margin: 40px;
 	padding: 0;
 }
 
+.profile_card_main {
+	/*margin-left: 20px !important;
+	margin-right: 20px !important;*/
+	margin-top: 20px;
+}
+
 .profile_card{
-	width: 200px;
+	width: 255px;
 	flex-shrink: 0;
 	border-radius: 24px;
 	background: #4062FF;
-}
-
-.profile_card_photo{
-	width: 58px;
-	height: 48px;
-
-	position: relative;
 }
 
 .text_test {
@@ -207,4 +206,36 @@ margin: 40px;
 }
 .topbar-user {
      background-color: none !important; 
+}
+
+.caption {
+      position: absolute;
+      width: 108px;
+      height: 108px;
+      right: 60%;
+      color: #ffffff;
+      padding: 0px;
+      top: 75px;
+    }
+
+
+.profile_card h4 {
+	margin-left: 55px;
+	color: #fff;
+	padding-left: 45px;
+	
+}
+.profile_card {
+	padding-top: 30px!important;
+	padding-left: 10px!important;
+	padding-bottom: 1px!important;
+}
+.user_bottom_text{
+	padding-top: 50px;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+} 
+.profile_card div p {
+	margin-bottom: 8px!important;
 }
