@@ -1353,9 +1353,10 @@
                                                 <h4 m-5>Tolibov T</h4>
                                                 <div class="user_bottom_text">
                                                     <p>tolibov@gmail.com</p>
-                                                    <div class="statics">
+                                                    <div class="statics padding-3">
                                                         <div class="img">
-                                                            <img src="{{ asset('img/user/Arrow2.png') }}">
+                                                            <div class="user_bottom_icon "><img src="{{ asset('img/user/Arrow2.png') }}"> 
+                                                                <span class="">32(+2%)</span></div>
                                                         </div>
 
                                                     </div>

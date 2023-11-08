@@ -239,3 +239,23 @@ margin: 40px;
 .profile_card div p {
 	margin-bottom: 8px!important;
 }
+
+.user_bottom_icon {
+    width: 80px;
+    /* height: 28px; */
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #4081FF;
+    color: var(--common-white, #FFF);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1px;
+    position: relative;
+    float: right;
+    margin-left: 38px;
+}
+
