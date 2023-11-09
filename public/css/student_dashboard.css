@@ -3,7 +3,9 @@
     height: 1024px;
     background-color: #F2F8FF;
 }
+* {
 
+}
 .left-bar {
 	width: 350px;
 	height: 1021px;
@@ -43,7 +45,10 @@
 .left-bar ul li{
 	margin: 40px;
 }*/
-
+* {
+	margin: 0;
+	padding: 0;
+}
 .logo {
 	/*width: 24px !important;
 	height: 26.824px !important;*/
@@ -75,6 +80,9 @@
     margin: 20px;
     margin-top: 10px !important;
     border-radius: 16px;
+    width: 225.378px;
+	height: 64px;
+
 
 }
 
@@ -85,7 +93,8 @@
 	border-radius: 16px;
 	background: #4062FF;
 	color: #fff !important;
-	margin: 15px;
+	margin-top: 10px !important;
+	margin: 20px;
 }
 
 .subject_icon_background {
@@ -253,9 +262,75 @@ margin: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 1px;
+    padding: 4px;
     position: relative;
     float: right;
-    margin-left: 38px;
+    margin-left: 36px;
+        margin-bottom: 4px;
 }
 
+.subject-box {
+	display: flex;
+	flex-direction: column;
+
+}
+.box-text-top {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 4px;
+}
+.subject-box-item {
+	display: flex;
+	margin-bottom: 15px;
+
+}
+.box-text-bottom {
+	display: flex;
+	justify-content: space-between;
+
+}
+.box-text {
+	margin-left: 20px;
+	width: 80%;
+	margin-right: 15px;
+}
+.box-text p {
+	margin: 0;
+	padding: 0;
+}
+.box-text-top-1 p{
+	color: var(--common-black, #000);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.box-text-top-2 p{
+	color: #6DD64D;
+
+text-align: right;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.box-text-bottom-1 p{
+	color: #919EAB;
+
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.box-text-bottom-2 p{
+	color: #919EAB  !important;
+
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

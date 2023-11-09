@@ -1366,13 +1366,92 @@
                                         </div>
 
 
-                                        <div class="p-3 mt-2">
-                                            <h1 class=" mb-3 text_test">Hozirgi testlar
-                                            </h1 >
+                                        <div class="subject-box p-3 mt-2 ">
+                                            <h1 class=" mb-3 text_test">Hozirgi testlar</h1 >
 
-                                            <div>
-                                                 <img class="m-2 subject_icon_background p-2" src="{{ asset('img/svg/history.svg') }}" width="19" height="16" >
-                                                 <span class="mb-5">ffdgfd</span>
+                                            <div class="subject-box-item">
+                                                 <img class="subject_icon_background p-2" src="{{ asset('img/svg/history.svg') }}" width="19" height="16" >
+                                                 <div class="box-text">
+                                                    <div class="box-text-top">
+                                                        <div class="box-text-top-1">
+                                                            <p>Matematika</p>
+                                                        </div>
+                                                        <div class="box-text-top-2">
+                                                            <p>48</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-text-bottom">
+                                                        <div class="box-text-bottom-1">
+                                                            <p>Bugun</p>
+                                                        </div>
+                                                        <div class="box-text-bottom-2">
+                                                            <p>Qatnashuvchi</p>
+                                                        </div>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                             <div class="subject-box-item">
+                                                 <img class="subject_icon_background p-2" src="{{ asset('img/svg/history.svg') }}" width="19" height="16" >
+                                                 <div class="box-text">
+                                                    <div class="box-text-top">
+                                                        <div class="box-text-top-1">
+                                                            <p>Matematika</p>
+                                                        </div>
+                                                        <div class="box-text-top-2">
+                                                            <p>48</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-text-bottom">
+                                                        <div class="box-text-bottom-1">
+                                                            <p>Bugun</p>
+                                                        </div>
+                                                        <div class="box-text-bottom-2">
+                                                            <p>Qatnashuvchi</p>
+                                                        </div>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                             <div class="subject-box-item">
+                                                 <img class="subject_icon_background p-2" src="{{ asset('img/svg/history.svg') }}" width="19" height="16" >
+                                                 <div class="box-text">
+                                                    <div class="box-text-top">
+                                                        <div class="box-text-top-1">
+                                                            <p>Matematika</p>
+                                                        </div>
+                                                        <div class="box-text-top-2">
+                                                            <p>48</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-text-bottom">
+                                                        <div class="box-text-bottom-1">
+                                                            <p>Bugun</p>
+                                                        </div>
+                                                        <div class="box-text-bottom-2">
+                                                            <p>Qatnashuvchi</p>
+                                                        </div>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                             <div class="subject-box-item">
+                                                 <img class="subject_icon_background p-2" src="{{ asset('img/svg/history.svg') }}" width="19" height="16" >
+                                                 <div class="box-text">
+                                                    <div class="box-text-top">
+                                                        <div class="box-text-top-1">
+                                                            <p>Matematika</p>
+                                                        </div>
+                                                        <div class="box-text-top-2">
+                                                            <p>48</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-text-bottom">
+                                                        <div class="box-text-bottom-1">
+                                                            <p>Bugun</p>
+                                                        </div>
+                                                        <div class="box-text-bottom-2">
+                                                            <p>Qatnashuvchi</p>
+                                                        </div>
+                                                    </div>
+                                                 </div>
                                             </div>
                                         </div>
                                         
