@@ -86,7 +86,7 @@
 
 }
 
-.student_dashboard_link:hover {
+.student_dashboard_link:hover{
 	width: 225.378px;
 	height: 64px;
 	flex-shrink: 0;
@@ -96,6 +96,15 @@
 	margin-top: 10px !important;
 	margin: 20px;
 }
+ svg{
+	fill: #B8BED9;
+}
+
+.student_dashboard_link:hover svg{
+	color:#fff !important;
+	fill: white;
+}
+
 
 .subject_icon_background {
 	width: 48px;
@@ -334,3 +343,32 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.logout {
+	display: flex;
+	width: 207px;
+	height: 64px;
+	padding: 16px 72px 16px 24px;
+	align-items: center;
+	gap: 16px;
+	flex-shrink: 0;
+	color:red;
+	margin-left: 30px;
+	margin-top:230px;
+}
+.logout span{
+	margin:15px;
+	color:red;
+}
+
+
+.logout svg{
+	fill:red;
+}
+
+.logout a:hover{
+	color: green !important;
+	fill:green  !important;
+/*	text-decoration: underline;*/
+}
+
