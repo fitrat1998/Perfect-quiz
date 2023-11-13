@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\SubjectController;
-use Illuminate\Http\Request;
+use App\Models\Subject;
+use App\Http\Requests\StoreSubjectRequest;
+use App\Http\Requests\UpdateSubjectRequest;
 
-class SubjectControllerController extends Controller
+class SubjectController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -26,7 +27,7 @@ class SubjectControllerController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(StoreSubjectRequest $request)
     {
         //
     }
@@ -34,7 +35,7 @@ class SubjectControllerController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(SubjectController $subjectController)
+    public function show(Subject $subject)
     {
         //
     }
@@ -42,7 +43,7 @@ class SubjectControllerController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(SubjectController $subjectController)
+    public function edit(Subject $subject)
     {
         //
     }
@@ -50,7 +51,7 @@ class SubjectControllerController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, SubjectController $subjectController)
+    public function update(UpdateSubjectRequest $request, Subject $subject)
     {
         //
     }
@@ -58,7 +59,7 @@ class SubjectControllerController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(SubjectController $subjectController)
+    public function destroy(Subject $subject)
     {
         //
     }

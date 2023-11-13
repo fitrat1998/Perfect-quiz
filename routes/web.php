@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[PageController::class,'index'])->name('index');
 Route::get('/login',[LoginController::class,'index'])->name('login');
 Route::get('/dashboard',[QuizController::class,'index'])->name('dashboard');
-Route::get('/subject',[QuizController::class,'index'])->name('subject');
+Route::get('/subject',[SubjectController::class,'index'])->name('subject');

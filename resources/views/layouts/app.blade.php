@@ -43,8 +43,10 @@
 <body class="twocolumn-panel">
 <!-- Begin page -->
 <div id="layout-wrapper">
-
+    @include('layouts.sidebar')
+    @include('layouts.navbar')
     @yield('content')
+    @include('layouts.rightbar')
 
 
 

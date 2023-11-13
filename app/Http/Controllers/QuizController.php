@@ -16,6 +16,7 @@ class QuizController extends Controller
         return view('public.dashboard');
     }
 
+
     /**
      * Show the form for creating a new resource.
      */
